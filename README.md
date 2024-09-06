@@ -1,2 +1,2 @@
-My first repository! Just added some extensions to my codespace, but that's really it.
+My first website, although incredibly scuffed, is done. Except for the link, which doesn't work...
 Using a template from Operation Spark/Greenlight
