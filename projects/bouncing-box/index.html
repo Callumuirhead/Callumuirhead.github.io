@@ -129,15 +129,16 @@
 
 			function misclickCount() {
 				misclick = misclick + 1
+					if (misclick >= 10) {
+						endGame()
+					}
 			}
 
 			function getRandomColor() {
 				colorStr = "rgb(" + Math.random() * 255 + "," + Math.random() * 255 + "," + Math.random() * 255 + ")";
 				box.css("background-color", colorStr)
 			}
-			if (misclick >= 10) {
-				endGame()
-			}
+			
 			function endGame() {
 				clearInterval(interval);
 			}
